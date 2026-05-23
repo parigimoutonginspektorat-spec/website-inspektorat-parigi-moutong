@@ -1,0 +1,40 @@
+# ============================================
+# FILE YANG DIABAIKAN (TIDAK AKAN DI-UPLOAD)
+# ============================================
+
+# --- File Konfigurasi Sensitif ---
+.env
+.env.local
+.env.production
+config.php
+
+# --- Folder Dependencies (bisa diinstall ulang) ---
+node_modules/
+vendor/
+bower_components/
+
+# --- File Sistem ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- File Sementara ---
+*.log
+tmp/
+temp/
+cache/
+
+# --- File IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- File Backup ---
+*.bak
+*.backup
+*~
+
+# --- Folder Pribadi ---
+private/
+secret/
